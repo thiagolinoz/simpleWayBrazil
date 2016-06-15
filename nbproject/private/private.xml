@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/cms/aplicacao/Views/View.class.php</file>
+            <file>file:/C:/xampp/htdocs/cms/aplicacao/Model/AbstractModel.class.php</file>
+            <file>file:/C:/xampp/htdocs/cms/aplicacao/Model/Funcionarios.class.php</file>
+            <file>file:/C:/xampp/htdocs/cms/admin.php</file>
+            <file>file:/C:/xampp/htdocs/cms/templates/admin/funcionarios/logar.tpl.php</file>
+            <file>file:/C:/xampp/htdocs/cms/templates/admin/_rodape.tpl.php</file>
+            <file>file:/C:/xampp/htdocs/cms/aplicacao/Biblioteca/Crud.class.php</file>
+            <file>file:/C:/xampp/htdocs/cms/aplicacao/Controller/Controller.class.php</file>
+        </group>
+    </open-files>
+</project-private>

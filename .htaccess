@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^home$ index.php?pagina=index [NC,L]
+	RewriteRule ^quemsomos$ index.php?pagina=quemsomos [NC,L]
+	RewriteRule ^servicos$ index.php?pagina=servicos [NC,L]
+	RewriteRule ^noticias$ index.php?modulo=Noticias&acao=listar [NC,L]
+	RewriteRule ^link$ index.php?pagina=link [NC,L]
+	RewriteRule ^contato$ index.php?pagina=contato [NC,L]
+	RewriteRule ^servico_pesquisa$ index.php?pagina=servico_pesquisa [NC,L]
+	RewriteRule ^servico_marketing$ index.php?pagina=servico_marketing [NC,L]
+	RewriteRule ^servico_posvenda$ index.php?pagina=servico_posvenda [NC,L]
+	RewriteRule ^servico_pesquisa$ index.php?pagina=servico_pesquisa [NC,L]
+	RewriteRule ^servico_feiras$ index.php?pagina=servico_feiras [NC,L]
+	RewriteRule ^servico_sociais$ index.php?pagina=servico_sociais [NC,L]
+	RewriteRule ^servico_relacoes$ index.php?pagina=servico_relacoes [NC,L]
+	RewriteRule ^servico_publicidade$ index.php?pagina=servico_publicidade [NC,L]
+	RewriteRule ^servico_traducoes$ index.php?pagina=servico_traducoes [NC,L]
+	RewriteRule ^contato_enviado$ index.php?pagina=contato_enviado [NC,L]
+	RewriteRule ^envia$ index.php?pagina=envia [NC,L]
+
+	RewriteRule ^admin$ admin.php [NC,L]
+
+</IfModule>
+
+AddHandler php53-script .php
+suPHP_ConfigPath /home/simplewaybrazil/
